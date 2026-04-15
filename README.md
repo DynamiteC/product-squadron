@@ -1,32 +1,31 @@
-# Product Squadron: The AI-Agent Efficiency Skill
+# Product Squadron: AI-Agent Efficiency Skill
 
-An autonomous, multi-role agent squadron for building, testing, and optimizing full-stack products. This skill is engineered to scale AI productivity by combining high-level orchestration with extreme token density and tree-search optimization.
+Autonomous multi-role agent framework for full-stack product development and optimization. Engineered for high performance through hierarchical coordination, token density, and tree-search experimentation.
 
-## 🚀 Core Architecture
+## Core Architecture
 
-Scaling AI agents requires more than just better models; it requires better **organizational structures**. This skill integrates three foundational paradigms:
+Efficiency in AI agents requires structured organizational patterns. This skill integrates:
 
-1.  **Nelson (Orchestration):** A three-tier hierarchy (Admiral, Captain, Crew) that manages complex missions with clear checkpoints, audit logs, and risk-based "Action Stations."
-2.  **Caveman (Token Density):** A high-efficiency communication protocol that reduces token consumption by up to 75%, preserving "Hull Integrity" (the context window) for massive, multi-file codebases.
-3.  **Evo (Tree-Search):** An autonomous optimization engine that uses parallel experiments (git worktrees) and benchmarking to prune regressions and merge only the most efficient code paths.
+1. **Nelson (Command):** Hierarchical structure (Admiral, Captain, Crew) managing complex missions via auditable checkpoints and risk-based "Action Stations."
+2. **Caveman (Terse):** Communication protocol optimized for context preservation. Redefines inter-agent dialogue to maximize token utility.
+3. **Evo (Optimize):** Tree-search engine for code and metric improvement. Runs parallel experiments to prune regressions and merge validated performance gains.
 
-## 🚢 Operational Roles
+## Strategic Roles
 
-The squadron provides specialized workflows for:
-- **Architect & Designer:** Strategic system design and aesthetic polish.
-- **Full-stack (PWO):** Rapid, high-quality implementation.
-- **QA & Security:** Automated testing, vulnerability scanning, and adversarial review.
-- **SRE & SEO:** Infrastructure reliability and performance-driven visibility.
+Workflows for specialized product delivery:
+- **Architect & Designer:** Strategy, system design, and interface polish.
+- **Full-stack (PWO):** Technical implementation and deployment.
+- **QA & Security:** Adversarial testing and vulnerability scanning.
+- **SRE & SEO:** Reliability, infrastructure cost control, and search visibility.
 
-## 🛠 Usage for AI Agents
+## Implementation for Agents
 
-This skill is designed to be **highly discoverable** and **efficient** for LLMs. It uses a structured directory for "progressive disclosure," loading only the necessary domain context when triggered.
+Designed for discoverability and token-efficiency. Uses progressive disclosure to load context only when triggered.
 
-### Quick Start
+### Basic Workflow
 1. **Initialize Mission:** `node scripts/mission/init.cjs <name>`
-2. **Compress Context:** Use `scripts/utils/compress.cjs` to maintain hull integrity.
-3. **Optimize Output:** Use `scripts/utils/benchmark.cjs` to drive Evo-style loops.
+2. **Context Compression:** Use `scripts/utils/compress.cjs` to maintain context.
+3. **Metric Benchmarking:** Use `scripts/utils/benchmark.cjs` to drive optimization loops.
 
 ---
-
-*This repository represents a step toward high-performance, autonomous product development. As we continue to refine these agentic patterns, we move closer to a future where AI agents can reliably deliver complex, production-ready software systems.*
+*Autonomous product development through structured agentic coordination.*

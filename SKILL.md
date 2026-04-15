@@ -1,43 +1,36 @@
 ---
 name: product-squadron
-description: Autonomous development squadron combining Nelson (Orchestration), Caveman (Token-Efficiency), and Evo (Tree-Search Optimization). Use when building complex full-stack products requiring multi-role specialization (Mobile, QA, Architect, Designer, Security, SRE, SEO).
+description: Autonomous development squadron for complex full-stack products. Integrates hierarchical command (Nelson), token-optimized communication (Caveman), and tree-search optimization (Evo). Supports Mobile, QA, Architect, Designer, Security, SRE, and SEO roles.
 ---
 
 # Product Squadron
 
-A high-performance, autonomous agent squadron for building, testing, and optimizing full-stack products.
+High-performance autonomous agent framework for full-product delivery and optimization.
 
-## Core Capabilities
+## Core Frameworks
 
-### 1. Admiral-Led Orchestration (Nelson)
-- **Hierarchy**: Use `references/squadron/hierarchy.md` to define roles (Admiral, Captain, Crew).
-- **Risk Management**: Follow `references/squadron/risk-management.md` for "Action Stations."
-- **Auditability**: Maintain a "Captain's Log" for all mission turns.
+### 1. Command Hierarchy (Nelson)
+- **Structure**: Defined in `references/squadron/hierarchy.md` (Admiral, Captain, Crew).
+- **Safety**: Risk-based Action Stations in `references/squadron/risk-management.md`.
+- **Audit**: Sequential Captain's Log for mission transparency.
 
-### 2. Token-Efficient Communication (Caveman)
-- **Protocol**: Apply `references/communication/terse-protocol.md` to all inter-agent messages.
-- **Goal**: Preserve "Hull Integrity" (context window) during massive missions.
+### 2. Terse Communication (Caveman)
+- **Protocol**: Mandated in `references/communication/terse-protocol.md`.
+- **Objective**: Maximum context preservation through linguistic density.
 
-### 3. Tree-Search Optimization (Evo)
-- **Experiments**: Use `references/optimization/tree-search.md` to branch and prune optimization paths.
-- **Metrics**: Benchmark with `scripts/utils/benchmark.cjs` to target specific KPIs (e.g., performance, SEO).
+### 3. Metric Optimization (Evo)
+- **Method**: Tree-search experimentation in `references/optimization/tree-search.md`.
+- **Validation**: Benchmarking against performance and SEO KPIs using `scripts/utils/benchmark.cjs`.
 
-## Specialized Roles
+## Role Definitions
 
-Access specialized workflows and standards for each role:
-- **Product Suite**: `references/roles/product-suite.md` (Architect, Designer, Full-stack, Mobile)
-- **Quality & Ops**: `references/roles/quality-ops.md` (QA, Security, SRE, SEO)
+- **Product Development**: `references/roles/product-suite.md` (Strategy, Design, Implementation).
+- **Operations and Quality**: `references/roles/quality-ops.md` (Security, Testing, Reliability, Search).
 
-## Quick Start (Admiral's Command)
+## Mission Workflow
 
-1. **Mission Init**: Define "Sailing Orders" (objective, constraints, tech stack).
-2. **Assign Captains**: Delegate workstreams to specific ships (Frontend, Backend, etc.).
-3. **Set Action Stations**: Categorize mission risk (Patrol to Action Stations).
-4. **Execute & Optimize**: Implement features and use Evo-style loops for optimization.
-5. **Turnover Brief**: Generate a final report summarizing the mission's success.
-
-## Workflow Patterns
-
-- **Feature Implementation**: Admiral → PWO (Code) → MEO (QA) → Captain (Review).
-- **Security Audit**: Admiral → Security Officer (Scan) → Red-Cell (Vulnerability Report).
-- **Performance Tuning**: Admiral → Evo (Experiments) → SRE (Benchmarking).
+1. **Orders**: Define product objective, tech stack, and constraints.
+2. **Delegation**: Assign workstreams to specialized roles.
+3. **Execution**: Implement features using terse protocols.
+4. **Optimization**: Run parallel experiments to refine performance metrics.
+5. **Briefing**: Final delivery report with audit trails and benchmark results.
