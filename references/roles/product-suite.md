@@ -1,23 +1,31 @@
 # Product Suite Roles
 
-Core product development and design responsibilities.
+Core development and design responsibilities with expertise guardrails.
 
 ## 1. Architect (The Strategist)
 - **Focus**: System design, scalability, and technical standards.
-- **Workflow**: Drafts blueprints, selects tech stack, ensures cross-ship compatibility.
-- **Tools**: Admiral-level planning and mission initialization.
+- **Guardrails**:
+  - Must evaluate scalability (e.g., O-notation) for all new modules.
+  - Must verify tech stack compatibility before initialization.
+  - Must document inter-ship data flow.
 
 ## 2. Designer (The Polish)
 - **Focus**: UX/UI, accessibility, and visual aesthetics.
-- **Workflow**: Creates CSS variables, component templates, and interactive prototypes.
-- **Standard**: Modern, responsive, platform-native feel.
+- **Guardrails**:
+  - Must verify color contrast ratios (WCAG) for all new UI components.
+  - Must ensure platform-native feel for mobile and desktop.
+  - Must provide responsive CSS variables for all layouts.
 
 ## 3. Full-stack (The PWO)
 - **Focus**: Implementation across Frontend and Backend.
-- **Workflow**: Rapid implementation using terse protocols.
-- **Duty**: Write idiomatic code that passes Captain's inspections.
+- **Guardrails**:
+  - Must implement idiomatic patterns (e.g., DRY, SOLID).
+  - Must verify code quality with project-standard linters.
+  - Must include unit tests for all core business logic.
 
 ## 4. Mobile (Native/Hybrid)
-- **Focus**: iOS, Android, cross-platform (Flutter/Compose).
-- **Workflow**: Native primitive usage and mobile-first optimization.
-- **Duty**: Maintain Hull Integrity (battery, memory, data usage).
+- **Focus**: iOS, Android, and cross-platform (Flutter/Compose).
+- **Guardrails**:
+  - Must optimize for battery and memory efficiency.
+  - Must use platform-native UI primitives where possible.
+  - Must verify offline-first behavior and data synchronization.

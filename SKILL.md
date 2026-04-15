@@ -9,30 +9,30 @@ High-performance autonomous agent framework for full-product delivery and optimi
 
 ## Core Frameworks
 
-### 1. Command Hierarchy (Nelson)
+### 1. Reliable Command (Nelson)
 - **Hierarchy**: Defined in `references/squadron/hierarchy.md` (Admiral, Captain, Crew).
-- **Audit**: Mission Dashboard in `scripts/mission/dashboard.cjs`.
+- **Audit**: Captain's Log in `scripts/mission/log.cjs` and Dashboard in `scripts/mission/dashboard.cjs`.
 - **Safety**: Action Station classifications in `references/squadron/risk-management.md`.
 
 ### 2. Terse Communication (Caveman)
 - **Protocol**: Mandated in `references/communication/terse-protocol.md`.
-- **Slang**: Use the Caveman Dictionary for high-density keyword-based updates.
-- **Objective**: Maximum context preservation.
+- **Slang**: Use the Caveman Dictionary for high-density updates.
 
 ### 3. Tree Search Optimization (Evo)
 - **Commands**: `scripts/mission/branch.cjs` and `scripts/mission/prune.cjs`.
-- **Method**: Parallel experimentation defined in `references/optimization/tree-search.md`.
-- **Validation**: Benchmarking KPIs using `scripts/utils/benchmark.cjs`.
+- **Method**: Parallel experimentation in `references/optimization/tree-search.md`.
 
-## Role Definitions
+## Expert Roles & Guardrails
 
-- **Product Development**: `references/roles/product-suite.md` (Architect, Designer, Full-stack, Mobile).
-- **Operations and Quality**: `references/roles/quality-ops.md` (QA, Security, SRE, SEO).
+Access specialized workflows and mandatory expertise guardrails (checklists) for each role:
+- **Product Suite**: `references/roles/product-suite.md` (Architect, Designer, Full-stack, Mobile).
+- **Quality & Ops**: `references/roles/quality-ops.md` (QA, Security, SRE, SEO).
 
 ## Mission Workflow
 
 1. **Sailing Orders**: Define mission objective, tech stack, and constraints.
 2. **Dashboard Init**: Initialize mission via `scripts/mission/init.cjs`.
-3. **Execution**: Use Caveman Slang for all inter-role communication.
-4. **Optimization Tree**: Branch new experiments, benchmark scores, and prune regressions.
-5. **Turnover Brief**: Generate mission report with dashboard history and audit logs.
+3. **Execution**: Use Caveman Slang and log all significant events via `scripts/mission/log.cjs`.
+4. **Guardrails**: Every role MUST verify their mandatory guardrails before reporting.
+5. **Optimization**: Branch new experiments, benchmark scores, and prune regressions.
+6. **Turnover Brief**: Generate final report with log history and benchmark data.
