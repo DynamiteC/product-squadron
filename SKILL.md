@@ -1,6 +1,6 @@
 ---
 name: product-squadron
-description: Autonomous development squadron for complex full-stack products. Integrates hierarchical command (Nelson), token-optimized communication (Caveman), and tree-search optimization (Evo). Supports Mobile, QA, Architect, Designer, Security, SRE, and SEO roles.
+description: Autonomous development squadron for full-stack products. Integrates hierarchical command (Nelson), token-optimized slang (Caveman), and tree-search dashboard (Evo).
 ---
 
 # Product Squadron
@@ -10,27 +10,29 @@ High-performance autonomous agent framework for full-product delivery and optimi
 ## Core Frameworks
 
 ### 1. Command Hierarchy (Nelson)
-- **Structure**: Defined in `references/squadron/hierarchy.md` (Admiral, Captain, Crew).
-- **Safety**: Risk-based Action Stations in `references/squadron/risk-management.md`.
-- **Audit**: Sequential Captain's Log for mission transparency.
+- **Hierarchy**: Defined in `references/squadron/hierarchy.md` (Admiral, Captain, Crew).
+- **Audit**: Mission Dashboard in `scripts/mission/dashboard.cjs`.
+- **Safety**: Action Station classifications in `references/squadron/risk-management.md`.
 
 ### 2. Terse Communication (Caveman)
 - **Protocol**: Mandated in `references/communication/terse-protocol.md`.
-- **Objective**: Maximum context preservation through linguistic density.
+- **Slang**: Use the Caveman Dictionary for high-density keyword-based updates.
+- **Objective**: Maximum context preservation.
 
-### 3. Metric Optimization (Evo)
-- **Method**: Tree-search experimentation in `references/optimization/tree-search.md`.
-- **Validation**: Benchmarking against performance and SEO KPIs using `scripts/utils/benchmark.cjs`.
+### 3. Tree Search Optimization (Evo)
+- **Commands**: `scripts/mission/branch.cjs` and `scripts/mission/prune.cjs`.
+- **Method**: Parallel experimentation defined in `references/optimization/tree-search.md`.
+- **Validation**: Benchmarking KPIs using `scripts/utils/benchmark.cjs`.
 
 ## Role Definitions
 
-- **Product Development**: `references/roles/product-suite.md` (Strategy, Design, Implementation).
-- **Operations and Quality**: `references/roles/quality-ops.md` (Security, Testing, Reliability, Search).
+- **Product Development**: `references/roles/product-suite.md` (Architect, Designer, Full-stack, Mobile).
+- **Operations and Quality**: `references/roles/quality-ops.md` (QA, Security, SRE, SEO).
 
 ## Mission Workflow
 
-1. **Orders**: Define product objective, tech stack, and constraints.
-2. **Delegation**: Assign workstreams to specialized roles.
-3. **Execution**: Implement features using terse protocols.
-4. **Optimization**: Run parallel experiments to refine performance metrics.
-5. **Briefing**: Final delivery report with audit trails and benchmark results.
+1. **Sailing Orders**: Define mission objective, tech stack, and constraints.
+2. **Dashboard Init**: Initialize mission via `scripts/mission/init.cjs`.
+3. **Execution**: Use Caveman Slang for all inter-role communication.
+4. **Optimization Tree**: Branch new experiments, benchmark scores, and prune regressions.
+5. **Turnover Brief**: Generate mission report with dashboard history and audit logs.
