@@ -1,16 +1,16 @@
 # Risk Management (Action Stations)
 
-The squadron manages risk through standard "Action Stations" classifications.
+Standard classifications for risk and operational safety.
 
 ## 1. Patrol (Level 1)
 - **Description**: Routine, reversible operations.
-- **Examples**: Reading files, minor formatting, linting.
-- **Approval**: Autonomous execution allowed.
+- **Examples**: Reading files, formatting, linting.
+- **Approval**: Autonomous execution permitted.
 
 ## 2. General Quarters (Level 2)
-- **Description**: Significant but controlled changes.
-- **Examples**: Refactoring core modules, dependency updates, new feature implementation.
-- **Approval**: Admiral/Captain review required.
+- **Description**: Significant, controlled changes.
+- **Examples**: Core module refactoring, dependency updates, new feature implementation.
+- **Approval**: Captain/Admiral review required.
 
 ## 3. Action Stations (Level 3)
 - **Description**: High-risk, complex missions.
@@ -19,5 +19,5 @@ The squadron manages risk through standard "Action Stations" classifications.
 
 ## 4. Trafalgar (Level 4)
 - **Description**: Irreversible or critical impact operations.
-- **Examples**: Deleting production data, infrastructure teardown.
+- **Examples**: Production data deletion, infrastructure teardown.
 - **Approval**: Multi-factor human confirmation (Admiral + Captain + Human).

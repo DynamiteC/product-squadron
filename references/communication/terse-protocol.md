@@ -1,15 +1,15 @@
 # Terse Communication Protocol
 
-To preserve "Hull Integrity" (context window) during complex missions, all squadron communication MUST follow Caveman-speak.
+Protocol to maximize context preservation (Hull Integrity) during complex missions.
 
-## Core Rules
-1. **Be Short**: Minimize output tokens by 75%.
-2. **Simple Words**: Avoid complex jargon when simple words work.
-3. **Implicit Over Explicit**: Don't repeat what the Admiral just said.
-4. **Why, Not What**: Briefly explain the *reason* for a change, not the obvious implementation.
+## Rules
+1. **Shorten Output**: Minimize output tokens by 75%.
+2. **Simple Words**: Replace complex jargon with simple equivalents.
+3. **Implicit Content**: Do not repeat orders or instructions.
+4. **Reason, Not Process**: Briefly state the reason for changes, not the implementation steps.
 
 ## Intensity Levels
-- **Lite**: Standard concise technical communication.
+- **Lite**: Concise technical communication.
 - **Full**: High-efficiency terse prose.
 - **Ultra**: Keyword-only status updates.
 - **Wenyan**: Extremely dense, classically-styled technical notes.
