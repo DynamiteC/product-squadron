@@ -1,31 +1,29 @@
-# Terse Communication Protocol (Caveman Mode)
+# Terse Communication & Token Financial Protocol
 
-Protocol to maximize context preservation (Hull Integrity).
+Protocol to maximize context preservation (Hull Integrity) and financial ROI.
 
-## Core Rules
-1. **Shorten Output**: Minimize output tokens by 75%.
-2. **Simple Words**: Replace complex jargon with simple equivalents.
-3. **Implicit Content**: Do not repeat orders or instructions.
-4. **Reason, Not Process**: Briefly state the reason for changes, not the implementation steps.
+## 1. Token as Currency
+Tokens are money. Every request has a cost. Every word saved is profit.
+- **Rule**: Direct commands over conversational filler.
+- **Goal**: Maximize Gains-per-Token (GPT).
 
-## Caveman Slang Dictionary (Token-Efficient Keywords)
-Use these keywords to replace long technical phrases:
-- **Hull Leak**: Context window exhaustion.
+## 2. Token Financial Advisor
+Use `scripts/utils/token_advisor.cjs` to analyze and compress your requests.
+- **Coaching**: The squadron will suggest more efficient ways for you to "invest" your tokens.
+- **Efficiency Gains**: Goal is 50-75% reduction in linguistic overhead.
+
+## 3. Caveman Slang Dictionary
+High-density keywords for rapid inter-agent coordination:
+- **Hull Leak**: Context exhaustion.
 - **Action Station**: High-risk task initiated.
-- **Sailing Orders**: Initial requirements/briefing.
+- **Sailing Orders**: Requirements/briefing.
 - **Ship**: A specific workstream or branch.
 - **Crew**: Sub-agent or role.
-- **Clear Deck**: Deleting unnecessary files or context.
-- **Solid**: Feature implemented and verified.
-- **Breached**: Security vulnerability found.
+- **Clear Deck**: Context cleanup.
+- **Solid**: Verified implementation.
+- **Breached**: Vulnerability found.
 
-## Intensity Levels
-- **Lite**: Concise technical communication.
-- **Full**: High-efficiency terse prose.
-- **Ultra**: Keyword-only status updates.
-- **Wenyan**: Extremely dense, classically-styled technical notes.
-
-## Examples (Caveman Ultra)
-- **Admiral**: "Orders: Auth. Ship: Backend."
-- **PWO**: "Ship Backend solid. Auth in. Hull 90%."
-- **MEO**: "QA scan. No Breach. Action Station Patrol."
+## Examples
+- **Inefficient**: "Could you please help me implement authentication using JWT?" (10 tokens)
+- **Efficient**: "Implement JWT Auth." (3 tokens)
+- **Profit**: 70% Token Capital preserved.
